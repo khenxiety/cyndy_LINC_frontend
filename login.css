@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.bg-cont .bg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.2;
+    
+}
+.containers{
+    font-family: 'Roboto', sans-serif;
+    /* background-image: linear-gradient(to bottom,rgba(247, 247, 247, 0.89),rgba(255, 255, 255, 0.733)),url("https://linccalabarzon.com/assets/img/091021_RIIC-4a_LINC.png" );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    
+    
+    height: 100%;
+    width: 100%;
+
+}
+
+.login{
+    min-height: 100%;
+    width: 500px;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(23, 48, 116, 0.808);
+
+}
+        
+
+
+
+.containers .login .login-header h1{
+    color: white;
+    font-weight: bolder;
+    
+}
+.containers .login .login-header h2{
+    color: white;
+    font-weight: bolder;
+
+}
+
+.containers .login .login-header hr{
+            height:5px;
+            border: solid 2px white;
+            color:white;
+            background-color:white
+        }
+
+.containers .login .login-body form{
+    display: flex;
+    flex-direction: column;
+            
+    width: 100%;
+    gap: 25px;
+}
+    
+
+
+
+.inputs{
+    height: 60px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+}
+label{
+    color: white;
+    font-weight: bold;
+}
+
+.containers .login .login-body form .form-group .custom-btn{
+    float: right; 
+    background-color: #173074;
+    font-weight: bolder; 
+    border: none; 
+    color: white; 
+    width: 120px;
+    height: 50px; 
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+
+    
+
+}
+.containers .login .login-body form .form-group .custom-btn:hover{
+    background-color: #964b00;
+
+}
